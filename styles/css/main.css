@@ -1,0 +1,1490 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  position: relative;
+  width: 1440px;
+  height: 8764px;
+  margin: 0 auto;
+  background-color: white;
+}
+.page .header {
+  width: 1240px;
+  height: 787px;
+  display: flex;
+  position: absolute;
+}
+.page .header .header-text h1 {
+  position: absolute;
+  width: 610px;
+  height: 119px;
+  left: 100px;
+  top: 190px;
+  width: 610px;
+  height: 119px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 125%;
+  color: #363738;
+}
+.page .header .header-text p {
+  position: absolute;
+  width: 525px;
+  height: 66px;
+  left: 100px;
+  top: 349px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.page .header .header-text a {
+  position: absolute;
+  width: 105px;
+  height: 17px;
+  left: 100px;
+  top: 455px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #363738;
+  text-decoration: none;
+}
+.page .header .header-text .a-line {
+  position: absolute;
+  width: 104px;
+  height: 0px;
+  left: 100px;
+  top: 482px;
+  border: 3px solid #ffce50;
+  background-color: #ffce50;
+}
+.page .header .header-photo .first-img {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: absolute;
+  width: 635px;
+  height: 505px;
+  left: 700px;
+  top: 109px;
+  z-index: 9999;
+}
+.page .header .header-photo .second-img {
+  left: 841px;
+  top: 0px;
+  position: absolute;
+  z-index: 0;
+}
+.page section#first-section .logistic-of-far-east {
+  position: absolute;
+  width: 1240px;
+  height: 341px;
+  left: 100px;
+  top: 681px;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 228px);
+  -moz-column-gap: 169px;
+       column-gap: 169px;
+}
+.page section#first-section .logistic-of-far-east .card1 {
+  margin-top: 40px;
+  margin-left: 80px;
+}
+.page section#first-section .logistic-of-far-east .card1 h3 {
+  width: 228px;
+  height: 48px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#first-section .logistic-of-far-east .card1 p {
+  margin-top: 16px;
+  width: 225px;
+  height: 65px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#first-section .logistic-of-far-east .card2 {
+  margin-top: 40px;
+  margin-left: 80px;
+}
+.page section#first-section .logistic-of-far-east .card2 h3 {
+  width: 228px;
+  height: 48px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#first-section .logistic-of-far-east .card2 p {
+  margin-top: 16px;
+  width: 225px;
+  height: 65px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#first-section .logistic-of-far-east .card3 {
+  margin-top: 40px;
+  margin-left: 80px;
+}
+.page section#first-section .logistic-of-far-east .card3 h3 {
+  width: 228px;
+  height: 48px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#first-section .logistic-of-far-east .card3 p {
+  margin-top: 16px;
+  width: 225px;
+  height: 65px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#first-section .logistic-of-far-east .section-line {
+  position: absolute;
+  width: 261px;
+  height: 0px;
+  left: 280px;
+  top: 160px;
+  border: 1px solid #d7d7dd;
+  transform: rotate(90deg);
+}
+.page section#first-section .logistic-of-far-east .section-line2 {
+  position: absolute;
+  width: 261px;
+  height: 0px;
+  left: 680px;
+  top: 160px;
+  border: 1px solid #d7d7dd;
+  transform: rotate(90deg);
+}
+.page section#first-section .sphere-of-working {
+  position: absolute;
+  width: 1108px;
+  height: 722px;
+  left: 100px;
+  top: 1122px;
+}
+.page section#first-section .sphere-of-working .sow-h2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+.page section#first-section .sphere-of-working .sow-p {
+  width: 667px;
+  height: 41px;
+  margin-top: 22px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers {
+  display: flex;
+  gap: 140px;
+  margin-top: 40px;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers .radio-button .first-input {
+  width: 687px;
+  height: 176px;
+  background: #ffffff;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-top: 48px;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers .radio-button .first-input input {
+  width: 24px;
+  height: 24px;
+  background: #ffffff;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers .radio-button .first-input h3 {
+  position: absolute;
+  width: 256px;
+  height: 23px;
+  left: 96px;
+  top: 206px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers .radio-button .first-input p {
+  width: 466px;
+  height: 41px;
+  margin-top: 15px;
+  margin-left: 56px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers .radio-button .second-input {
+  width: 687px;
+  height: 176px;
+  margin-top: 16px;
+  background: #ffffff;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-top: 48px;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers .radio-button .second-input input {
+  width: 24px;
+  height: 24px;
+  background: #ffffff;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers .radio-button .second-input h3 {
+  position: absolute;
+  width: 256px;
+  height: 23px;
+  left: 96px;
+  top: 396px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers .radio-button .second-input p {
+  width: 466px;
+  height: 41px;
+  margin-left: 56px;
+  margin-top: 15px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers .radio-button .third-input {
+  width: 687px;
+  height: 176px;
+  margin-top: 16px;
+  background: #ffffff;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-top: 48px;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers .radio-button .third-input input {
+  width: 24px;
+  height: 24px;
+  background: #ffffff;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers .radio-button .third-input h3 {
+  position: absolute;
+  width: 363px;
+  height: 23px;
+  left: 96px;
+  top: 588px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers .radio-button .third-input p {
+  width: 466px;
+  height: 41px;
+  margin-left: 56px;
+  margin-top: 15px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers .subscribers h3 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers .subscribers img {
+  margin-top: 24px;
+}
+.page section#first-section .sphere-of-working .radio-button-and-subscribers .subscribers .subscribers-line {
+  position: absolute;
+  width: 281px;
+  height: 0px;
+  left: 830px;
+  top: 280px;
+  border: 3px solid #ffce50;
+}
+.page section#second-section {
+  position: absolute;
+  width: 1341px;
+  height: 748px;
+  left: -1px;
+  top: 1944px;
+  background-color: #ffffff;
+}
+.page section#second-section .benefits h1 {
+  width: 362px;
+  height: 109px;
+  margin-top: 160px;
+  margin-left: 101px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #ffffff;
+  z-index: 3;
+  position: absolute;
+}
+.page section#second-section .benefits .s-1-img {
+  position: absolute;
+  width: 1040px;
+  height: 453px;
+  left: 300px;
+  top: 0px;
+  z-index: 1;
+}
+.page section#second-section .benefits .s-2-img {
+  position: absolute;
+  z-index: 2;
+}
+.page section#second-section .benefits .s-3-img {
+  position: absolute;
+  z-index: 2;
+  left: 419px;
+  top: 0px;
+}
+.page section#second-section .benefit-parts {
+  position: absolute;
+  z-index: 4;
+  left: 164px;
+  top: 526px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -moz-column-gap: 176px;
+       column-gap: 176px;
+  row-gap: 40px;
+}
+.page section#second-section .benefit-parts .part {
+  display: flex;
+  gap: 40px;
+}
+.page section#second-section .benefit-parts .part h3 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#second-section .benefit-parts .part p {
+  width: 291px;
+  margin-top: 16px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#third-section {
+  position: absolute;
+  width: 1239px;
+  height: 618px;
+  left: 100px;
+  top: 2812px;
+}
+.page section#third-section h1 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+.page section#third-section p {
+  width: 667px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#third-section .done-job {
+  margin-top: 56px;
+  display: flex;
+  gap: 30px;
+}
+.page section#third-section .done-job .dj-card-1 {
+  width: 393px;
+  height: 450px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+.page section#third-section .done-job .dj-card-1 h2 {
+  margin-top: 24px;
+  margin-left: 32px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#third-section .done-job .dj-card-1 p {
+  width: 291px;
+  margin-top: 16px;
+  margin-left: 32px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#third-section .done-job .dj-card-1 h3 {
+  margin-top: 32px;
+  margin-left: 32px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#third-section .done-job .dj-card-1 .dj-line-1 {
+  width: 86px;
+  height: 0px;
+  margin-left: 32px;
+  background-color: #ffce50;
+  border: 3px solid #ffce50;
+}
+.page section#third-section .done-job .dj-card-2 {
+  width: 393px;
+  height: 450px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+.page section#third-section .done-job .dj-card-2 h2 {
+  margin-top: 24px;
+  margin-left: 32px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#third-section .done-job .dj-card-2 p {
+  width: 291px;
+  margin-top: 16px;
+  margin-left: 32px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#third-section .done-job .dj-card-2 h3 {
+  margin-top: 32px;
+  margin-left: 32px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#third-section .done-job .dj-card-2 .dj-line-2 {
+  width: 86px;
+  height: 0px;
+  margin-left: 32px;
+  background-color: #ffce50;
+  border: 3px solid #ffce50;
+}
+.page section#third-section .done-job .dj-card-3 {
+  width: 393px;
+  height: 450px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+.page section#third-section .done-job .dj-card-3 h2 {
+  margin-top: 24px;
+  margin-left: 32px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#third-section .done-job .dj-card-3 p {
+  width: 291px;
+  margin-top: 16px;
+  margin-left: 32px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#third-section .done-job .dj-card-3 h3 {
+  margin-top: 32px;
+  margin-left: 32px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#third-section .done-job .dj-card-3 .dj-line-3 {
+  width: 86px;
+  height: 0px;
+  margin-left: 32px;
+  background-color: #ffce50;
+  border: 3px solid #ffce50;
+}
+.page section#invited-clients {
+  position: absolute;
+  width: 1240px;
+  height: 917px;
+  left: 100px;
+  top: 3642px;
+  background: #0b7572;
+  display: flex;
+  padding-top: 85px;
+  padding-left: 81px;
+}
+.page section#invited-clients .ic-text {
+  width: 477px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #ffffff;
+}
+.page section#invited-clients .ic-table {
+  margin-right: 67px;
+}
+.page section#phase-of-delivery {
+  position: absolute;
+  width: 1232px;
+  height: 880px;
+  left: 100px;
+  top: 4679px;
+}
+.page section#phase-of-delivery h2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+.page section#phase-of-delivery .pod-cards {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(1, 1183px);
+  grid-template-rows: repeat(3, 245px);
+  row-gap: 24px;
+}
+.page section#phase-of-delivery .pod-cards .pod-card {
+  margin-left: 49px;
+  padding-top: 32px;
+  padding-left: 96px;
+  display: flex;
+  gap: 56px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+.page section#phase-of-delivery .pod-cards .pod-card h3 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 125%;
+  color: #363738;
+}
+.page section#phase-of-delivery .pod-cards .pod-card .pod-card-line {
+  width: 86px;
+  height: 0px;
+  margin-top: 24px;
+  border: 3px solid #ffce50;
+  background-color: #ffce50;
+}
+.page section#phase-of-delivery .pod-cards .pod-card p {
+  width: 568px;
+  margin-top: 24px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#our-clients {
+  position: absolute;
+  width: 1212px;
+  height: 576px;
+  left: 100px;
+  top: 5679px;
+}
+.page section#our-clients h2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+.page section#our-clients .clients-logo {
+  margin-left: 46px;
+  margin-top: 76px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  text-align: center;
+  -moz-column-gap: 116px;
+       column-gap: 116px;
+  row-gap: 98px;
+}
+.page section#our-clients .clients-logo .rosatom h3 {
+  width: 184px;
+  margin-top: 32px;
+  margin-left: 12px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#our-clients .clients-logo .rosatom p {
+  width: 184px;
+  margin-left: 12px;
+  margin-top: 14px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+  text-align: center;
+}
+.page section#our-clients .clients-logo .gazprom h3 {
+  width: 184px;
+  margin-top: 58px;
+  margin-left: 12px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#our-clients .clients-logo .gazprom p {
+  width: 184px;
+  margin-left: 12px;
+  margin-top: 14px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+  text-align: center;
+}
+.page section#our-clients .clients-logo .rosneft h3 {
+  width: 184px;
+  margin-top: 32px;
+  margin-left: 12px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#our-clients .clients-logo .rosneft p {
+  width: 184px;
+  margin-left: 12px;
+  margin-top: 14px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+  text-align: center;
+}
+.page section#our-clients .clients-logo .roskosmos h3 {
+  width: 184px;
+  margin-top: 32px;
+  margin-left: 22px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#our-clients .clients-logo .roskosmos p {
+  width: 225px;
+  margin-left: 8px;
+  margin-top: 14px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+  text-align: center;
+}
+.page section#our-clients .clients-logo .lukoil {
+  margin-top: 22px;
+}
+.page section#our-clients .clients-logo .lukoil h3 {
+  width: 184px;
+  margin-top: 58px;
+  margin-left: 12px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#our-clients .clients-logo .lukoil p {
+  width: 184px;
+  margin-left: 12px;
+  margin-top: 14px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+  text-align: center;
+}
+.page section#our-clients .clients-logo .inter-raoes {
+  margin-top: 4px;
+}
+.page section#our-clients .clients-logo .inter-raoes h3 {
+  width: 184px;
+  margin-top: 36px;
+  margin-left: 12px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#our-clients .clients-logo .inter-raoes p {
+  width: 184px;
+  margin-left: 12px;
+  margin-top: 14px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+  text-align: center;
+}
+.page section#our-clients .clients-logo .rostech h3 {
+  width: 184px;
+  margin-top: 32px;
+  margin-left: 12px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#our-clients .clients-logo .rostech p {
+  width: 184px;
+  margin-left: 12px;
+  margin-top: 14px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+  text-align: center;
+}
+.page section#our-clients .clients-logo .vtb {
+  margin-top: 18px;
+}
+.page section#our-clients .clients-logo .vtb h3 {
+  width: 184px;
+  margin-top: 59.3px;
+  margin-left: 12px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.page section#our-clients .clients-logo .vtb p {
+  width: 184px;
+  margin-left: 12px;
+  margin-top: 14px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+  text-align: center;
+}
+.page section#our-clients .clients-line1 {
+  position: absolute;
+  width: 183px;
+  height: 0px;
+  left: 210px;
+  top: 240px;
+  border: 1px solid #d7d7dd;
+  transform: rotate(90deg);
+}
+.page section#our-clients .clients-line2 {
+  position: absolute;
+  width: 183px;
+  height: 0px;
+  left: 540px;
+  top: 240px;
+  border: 1px solid #d7d7dd;
+  transform: rotate(90deg);
+}
+.page section#our-clients .clients-line3 {
+  position: absolute;
+  width: 183px;
+  height: 0px;
+  left: 840px;
+  top: 240px;
+  border: 1px solid #d7d7dd;
+  transform: rotate(90deg);
+}
+.page section#our-clients .clients-line4 {
+  position: absolute;
+  width: 183px;
+  height: 0px;
+  left: 210px;
+  top: 530px;
+  border: 1px solid #d7d7dd;
+  transform: rotate(90deg);
+}
+.page section#our-clients .clients-line5 {
+  position: absolute;
+  width: 183px;
+  height: 0px;
+  left: 540px;
+  top: 530px;
+  border: 1px solid #d7d7dd;
+  transform: rotate(90deg);
+}
+.page section#our-clients .clients-line6 {
+  position: absolute;
+  width: 183px;
+  height: 0px;
+  left: 840px;
+  top: 530px;
+  border: 1px solid #d7d7dd;
+  transform: rotate(90deg);
+}
+.page section#our-workers {
+  position: absolute;
+  width: 1240px;
+  height: 799px;
+  left: 100px;
+  top: 6385px;
+}
+.page section#our-workers h2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+.page section#our-workers .workers-card {
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: repeat(2, 605px);
+  grid-template-rows: repeat(3, 210px);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 24px;
+}
+.page section#our-workers .workers-card .anton {
+  display: flex;
+  gap: 32px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.page section#our-workers .workers-card .anton .photo {
+  margin-top: 32px;
+}
+.page section#our-workers .workers-card .anton h3 {
+  margin-left: 8px;
+  margin-top: 47px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+}
+.page section#our-workers .workers-card .anton p {
+  margin-left: 8px;
+  margin-top: 12px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#our-workers .workers-card .anton .w-line {
+  width: 86px;
+  height: 0px;
+  margin-top: 8px;
+  margin-left: 8px;
+  border: 3px solid #ffce50;
+  background-color: #ffce50;
+}
+.page section#our-workers .workers-card .anton .w-icons {
+  display: flex;
+  margin-left: 8px;
+  margin-top: 32px;
+  gap: 20px;
+}
+.page section#our-workers .workers-card .elena {
+  display: flex;
+  gap: 32px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.page section#our-workers .workers-card .elena .photo {
+  margin-top: 32px;
+}
+.page section#our-workers .workers-card .elena h3 {
+  margin-left: 8px;
+  margin-top: 47px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+}
+.page section#our-workers .workers-card .elena p {
+  margin-left: 8px;
+  margin-top: 12px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#our-workers .workers-card .elena .w-line {
+  width: 86px;
+  height: 0px;
+  margin-top: 8px;
+  margin-left: 8px;
+  border: 3px solid #ffce50;
+  background-color: #ffce50;
+}
+.page section#our-workers .workers-card .elena .w-icons {
+  display: flex;
+  margin-left: 8px;
+  margin-top: 32px;
+  gap: 20px;
+}
+.page section#our-workers .workers-card .ilya {
+  display: flex;
+  gap: 32px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.page section#our-workers .workers-card .ilya .photo {
+  margin-top: 32px;
+}
+.page section#our-workers .workers-card .ilya h3 {
+  margin-left: 8px;
+  margin-top: 47px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+}
+.page section#our-workers .workers-card .ilya p {
+  margin-left: 8px;
+  margin-top: 12px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#our-workers .workers-card .ilya .w-line {
+  width: 86px;
+  height: 0px;
+  margin-top: 8px;
+  margin-left: 8px;
+  border: 3px solid #ffce50;
+  background-color: #ffce50;
+}
+.page section#our-workers .workers-card .ilya .w-icons {
+  display: flex;
+  margin-left: 8px;
+  margin-top: 32px;
+  gap: 20px;
+}
+.page section#our-workers .workers-card .boris {
+  display: flex;
+  gap: 32px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.page section#our-workers .workers-card .boris .photo {
+  margin-top: 32px;
+}
+.page section#our-workers .workers-card .boris h3 {
+  margin-left: 8px;
+  margin-top: 47px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+}
+.page section#our-workers .workers-card .boris p {
+  margin-left: 8px;
+  margin-top: 12px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#our-workers .workers-card .boris .w-line {
+  width: 86px;
+  height: 0px;
+  margin-top: 8px;
+  margin-left: 8px;
+  border: 3px solid #ffce50;
+  background-color: #ffce50;
+}
+.page section#our-workers .workers-card .boris .w-icons {
+  display: flex;
+  margin-left: 8px;
+  margin-top: 32px;
+  gap: 20px;
+}
+.page section#our-workers .workers-card .alina {
+  display: flex;
+  gap: 32px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.page section#our-workers .workers-card .alina .photo {
+  margin-top: 32px;
+}
+.page section#our-workers .workers-card .alina h3 {
+  margin-left: 8px;
+  margin-top: 47px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+}
+.page section#our-workers .workers-card .alina p {
+  margin-left: 8px;
+  margin-top: 12px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#our-workers .workers-card .alina .w-line {
+  width: 86px;
+  height: 0px;
+  margin-top: 8px;
+  margin-left: 8px;
+  border: 3px solid #ffce50;
+  background-color: #ffce50;
+}
+.page section#our-workers .workers-card .alina .w-icons {
+  display: flex;
+  margin-left: 8px;
+  margin-top: 32px;
+  gap: 20px;
+}
+.page section#our-workers .workers-card .viktor {
+  display: flex;
+  gap: 32px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.page section#our-workers .workers-card .viktor .photo {
+  margin-top: 32px;
+}
+.page section#our-workers .workers-card .viktor h3 {
+  margin-left: 8px;
+  margin-top: 47px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+}
+.page section#our-workers .workers-card .viktor p {
+  margin-left: 8px;
+  margin-top: 12px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#our-workers .workers-card .viktor .w-line {
+  width: 86px;
+  height: 0px;
+  margin-top: 8px;
+  margin-left: 8px;
+  border: 3px solid #ffce50;
+  background-color: #ffce50;
+}
+.page section#our-workers .workers-card .viktor .w-icons {
+  display: flex;
+  margin-left: 8px;
+  margin-top: 32px;
+  gap: 20px;
+}
+.page section#our-contacts {
+  position: absolute;
+  width: 1240px;
+  height: 504px;
+  left: 100px;
+  top: 7314px;
+}
+.page section#our-contacts h2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+.page section#our-contacts .contacts-and-table {
+  display: flex;
+  gap: 198px;
+}
+.page section#our-contacts .contacts-and-table .contacts {
+  margin-top: 94px;
+}
+.page section#our-contacts .contacts-and-table .contacts .phone {
+  display: flex;
+  gap: 36.7px;
+}
+.page section#our-contacts .contacts-and-table .contacts .phone h6 {
+  width: 172px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#our-contacts .contacts-and-table .contacts .phone h4 {
+  width: 165px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+}
+.page section#our-contacts .contacts-and-table .contacts .e-mail {
+  display: flex;
+  gap: 36.7px;
+  align-items: center;
+  margin-top: 44px;
+}
+.page section#our-contacts .contacts-and-table .contacts .e-mail h6 {
+  width: 172px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#our-contacts .contacts-and-table .contacts .e-mail h4 {
+  width: 165px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+}
+.page section#our-contacts .contacts-and-table .contacts .whatsapp {
+  display: flex;
+  gap: 36.7px;
+  align-items: center;
+  margin-top: 44px;
+}
+.page section#our-contacts .contacts-and-table .contacts .whatsapp h6 {
+  width: 172px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#our-contacts .contacts-and-table .contacts .whatsapp h4 {
+  width: 165px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+}
+.page section#our-contacts .contacts-and-table .contacts .skype {
+  display: flex;
+  gap: 36.7px;
+  align-items: center;
+  margin-top: 44px;
+}
+.page section#our-contacts .contacts-and-table .contacts .skype h6 {
+  width: 172px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#our-contacts .contacts-and-table .contacts .skype h4 {
+  width: 165px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+}
+.page section#our-contacts .contacts-and-table .table {
+  margin-top: 72px;
+  width: 794px;
+  height: 383px;
+  background: #f9f9fb;
+  border-radius: 5px;
+}
+.page section#our-contacts .contacts-and-table .table table {
+  width: 100%;
+  height: 100%;
+  padding-left: 48px;
+  padding-bottom: 56px;
+  row-gap: 48px;
+}
+.page section#our-contacts .contacts-and-table .table table tr {
+  border-bottom: 1px solid #e9eaf2;
+}
+.page section#our-contacts .contacts-and-table .table table .td1 {
+  width: 175px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #6b6b6c;
+}
+.page section#our-contacts .contacts-and-table .table table .td2 {
+  width: 443px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  color: #363738;
+}
+.page section#video-of-our-working {
+  position: absolute;
+  width: 1240px;
+  height: 807px;
+  left: 100px;
+  top: 7878px;
+}
+.page section#video-of-our-working h1 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+.page section#video-of-our-working p {
+  width: 848px;
+  height: 65px;
+  margin-top: 32px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.page section#video-of-our-working .video {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .page {
+    position: relative;
+    width: 768px;
+    height: 9913px;
+    background: #ffffff;
+  }
+  .page .header {
+    position: absolute;
+    width: 729px;
+    height: 743px;
+    left: 39px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .page .header .header-text h1 {
+    position: absolute;
+    width: 466px;
+    height: 100px;
+    left: 0px;
+    top: 80px;
+    font-family: "Exo 2";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 125%;
+    color: #363738;
+  }
+  .page .header .header-text p {
+    position: absolute;
+    width: 523px;
+    height: 65px;
+    left: 0px;
+    top: 220px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6b6b6c;
+  }
+  .page .header .header-text a {
+    position: absolute;
+    width: 105px;
+    height: 17px;
+    left: 0px;
+    top: 346px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #363738;
+  }
+  .page .header .header-text .a-line {
+    position: absolute;
+    width: 104px;
+    height: 0px;
+    left: 0px;
+    top: 373px;
+  }
+  .page .header .header-photo .first-img {
+    position: absolute;
+    width: 690px;
+    height: 314px;
+    left: 0px;
+    top: 429px;
+  }
+}/*# sourceMappingURL=main.css.map */
